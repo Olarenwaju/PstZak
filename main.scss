@@ -1,0 +1,87 @@
+
+$theme-colors: (
+  "primary": #2f0ea5,  
+);
+
+$container-max-widths: (
+    sm:500px,
+    md:890px,
+    lg:983px,
+    xl:1490px
+);
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    box-shadow: 2px 2px 5px #2f0ea5;
+    opacity: 1;
+    background: #fff;
+}
+
+.bg-image {
+    background-image: url(resources/img/main-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+  
+}
+
+
+.bg-white-2 {
+    background-color: rgba(255, 255, 255, 0.055);
+}
+
+.footer-bg {
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.bg-tapes-custom {
+    border: 1px solid rgba(0, 0, 0, 0.103); 
+}
+
+.bg-tapes-custom:hover {
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.116);
+    transition: 0.3s;
+}
+
+
+h2::after {
+    display: block;
+    height: 3px;
+    background-color: #2f0ea5;
+    content: " ";
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.custom-line-height {
+    line-height: 25px;
+}
+
+.img-opacity {
+    opacity: 0.5;
+}
+
+.live {
+    background-image: url(resources/img/live.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rounded-live {
+    border-radius: .5rem;
+}
+
+
